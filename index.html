@@ -77,29 +77,26 @@
         <p class="nomargin"><a class="nomargin" href="#"><img class="socialmedia" src="Assets/snapchat.png" alt="Snapchat"></a></p>
     </div>
 
-    <body onload="typeWriter()">
-    <script>
-        var i = 0;
-        var txt = 'My Portfolio';
-        var speed = 50;
-        
-        function typeWriter() {
-          if (i < txt.length) {
-            document.getElementById("demo").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-          }
-        }
-        </script>
-
-
-
     <!-- Hidden div for nav -->
     <div style="height:50px; width:100%;margin:0px;padding:0px;background-color:#0D1321;"></div>
     <div class="welcome-image">
       <h1 id="demo"></h1> 
       <!--  <div class="down-arrow"><h1>⬇️</h1></div> -->
     </div>
+    <body onload="typeWriter()">
+        <script>
+            var i = 0;
+            var txt = 'My Portfolio';
+            var speed = 50;
+            
+            function typeWriter() {
+              if (i < txt.length) {
+                document.getElementById("demo").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+              }
+            }
+            </script>
    <!-- <h1 id="maintitle" style="position: absolute;top: 285px; left: 625px;">My Portfolio</h1> -->
     <!-- Section One: Photography-->
   <!--  <div style="float: left; margin: 0px; padding: 0px; height: 500px; width: 50%; background-color: aqua;"></div> -->
