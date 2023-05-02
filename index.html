@@ -5,6 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Welcome to my portfolio! I'm a highschool student that enjoys web design, photography, and more!">
 <style>
+      @media (max-width: 767px) {
+        .hidden-mobile {
+          display: none;
+          width: 100% !important;
+        }
+      }
     body {
         margin: 0px;
         padding: 0px;
@@ -140,11 +146,12 @@
             <h2 style="text-align: center;">Web Design</h2>
             <p style="text-align: center;">Description goes here because descriptions are very cool and necessary!</p>
             </div>
-            <img src="Assets/web-design.jpg" alt="Web Design" style="float: right;padding:0px;margin:0px;width:50%;height:450px;background-color: #cfe0e8;">
+            <img src="Assets/web-design.jpg" alt="Web Design" style="float: right;padding:0px;margin:0px;width:50%;height:450px;background-color: #cfe0e8;" class="hidden-mobile">
         </div>
+        <div style="clear:both"></div>
      <div class="schedule">
         <div style="float: left;margin:auto;width:50%;background-color: #b7d7e8;height:450px;vertical-align: middle;"><iframe src="https://calendar.google.com/calendar/embed?height=450&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&src=cnlhbmhhdW4xMkBnbWFpbC5jb20&src=MHA2OTVycXNiN2ZzMjFmMGVkY2t2a3FwMG8xYXE1c3FAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%238E24AA&color=%23E67C73" style="border:solid 1px #777;z-index: 10;" width="100%" height="99.7%" frameborder="0" scrolling="no"></iframe></div>
-        <div style="float:right;width:50%;background-color: #b7d7e8;height:450px;text-align: center;"><h2>Header2</h2><p>text here!</p></div>
+        <div style="float:right;width:50%;background-color: #b7d7e8;height:450px;text-align: center;" class="hidden-mobile"><h2>Header2</h2><p>text here!</p></div>
      </div>
     <div class="gallery" style="background-color: #cfe0e8;padding: 0px;margin:0px;height:300px;clear:both;z-index: 20;">
         <h1 style="text-align: center;">Photo Gallery</h1>
