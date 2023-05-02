@@ -11,20 +11,20 @@
     }
     .topnav {
         position: fixed;
-        background-color: #0D1321;
+        background-color: #87bdd8;
         width: 100%;
         height: 50px;
         margin: 0px;
         padding: 0px;
         text-align: center;
-        color: #F0EBD8;
+        color: #daebe8;
     }
     #footer {
-        background-color: #0D1321;
-        color: white;
+        background-color: #87bdd8;
+        color: #daebe8;
         margin: 0px;
         padding: 0px;
-        height: 50px;
+        height: 25px;
         vertical-align: middle;
     }
     .welcome-image {
@@ -44,7 +44,7 @@
         z-index: 1;
     }
     .content {
-        background-color: #F0EBD8;
+        background-color: #d96459;
     }
     .socialmedia {
         float: right;
@@ -78,11 +78,26 @@
     .hide {
         display: none;
     }
+    #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+#omyVideo {
+    height: 350px;
+    width: 50%;
+    right: 0;
+    bottom: 0;
+    padding: 0px;
+    margin: 0px;
+}
 </style>
 </head>
 <body>
     <div class="topnav">
-        <h1 style="float: left; margin: 0px; padding: 0px;"><a href="https://www.google.com" target="_blank" style="color: #F0EBD8;text-decoration:none;vertical-align: middle;">Ryan Haun</a></h1>
+        <h1 style="float: left; margin: 0px; padding: 0px;"><a href="https://www.google.com" target="_blank" style="color: #daebe8;text-decoration:none;vertical-align: middle;">Ryan Haun</a></h1>
    <!--    <p class="nomargin"><a class="nomargin" href="#"><img class="socialmedia" src="Assets/github.png" alt="Github"></a></p> -->
    <!--     <p class="nomargin"><a class="nomargin" href="#"><img class="socialmedia" src="Assets/steam.png" alt="Steam"></a></p> -->
         <p class="nomargin"><a class="nomargin" href="#"><img class="socialmedia" src="Assets/twitter.png" alt="Twitter"></a></p>
@@ -110,15 +125,28 @@
               }
             }
             </script>
-   <!-- <h1 id="maintitle" style="position: absolute;top: 285px; left: 625px;">My Portfolio</h1> -->
-    <!-- Section One: Photography-->
-  <!--  <div style="float: left; margin: 0px; padding: 0px; height: 500px; width: 50%; background-color: aqua;"></div> -->
-  <!--  <div style="float: right; margin: 0px; padding: 0px; height: 500px; width: 50%; background-color: blue;"> </div> -->
     <div class="photography">
-        <h1 style="text-align: center;">Photography</h1>
-        <p>TEXT here text here text here text here text here text here text here text here text here texth ere text here text here text here text here text here</p>
-    </div>
-    <div class="gallery" style="background-color: maroon;">
+    <!-- Section One: Photography-->
+   <!-- <iframe width="50%" height="350px" src="https://www.youtube.com/embed/HyqJGsi85hk?controls=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+     <!-- <div style="float: left; margin: 0px; padding: 0px; height: 350px; width: 50%; background-color: aqua;"><video autoplay muted loop id="omyVideo"><source src="Assets/sample-30s.mp4" type="video/mp4"></video></div> -->
+     <img src="Assets/flower-photo.jpg" alt="Flower Photo" style="float: left;padding:0px;margin:0px;width:50%;height:450px;background-color: #b7d7e8;">
+     <div style="float: right; margin: 0px; padding: 0px; height: 450px; width: 50%; background-color: #b7d7e8;">
+        <h2 style="text-align: center;">Photography</h2>
+        <p style="text-align: center;">Description goes here because descriptions are very cool and necessary!</p>
+        </div> 
+     </div>
+     <div class="web-design">
+        <div style="float: left; margin: 0px; padding: 0px; height: 450px; width: 50%; background-color: #cfe0e8;">
+            <h2 style="text-align: center;">Web Design</h2>
+            <p style="text-align: center;">Description goes here because descriptions are very cool and necessary!</p>
+            </div>
+            <img src="Assets/web-design.jpg" alt="Web Design" style="float: right;padding:0px;margin:0px;width:50%;height:450px;background-color: #cfe0e8;">
+        </div>
+     <div class="schedule">
+        <div style="float: left;margin:auto;width:50%;background-color: #b7d7e8;height:450px;vertical-align: middle;"><iframe src="https://calendar.google.com/calendar/embed?height=450&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&src=cnlhbmhhdW4xMkBnbWFpbC5jb20&src=MHA2OTVycXNiN2ZzMjFmMGVkY2t2a3FwMG8xYXE1c3FAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%238E24AA&color=%23E67C73" style="border:solid 1px #777;z-index: 10;" width="100%" height="99.7%" frameborder="0" scrolling="no"></iframe></div>
+        <div style="float:right;width:50%;background-color: #b7d7e8;height:450px;text-align: center;"><h2>Header2</h2><p>text here!</p></div>
+     </div>
+    <div class="gallery" style="background-color: #cfe0e8;padding: 0px;margin:0px;height:300px;clear:both;z-index: 20;">
         <h1 style="text-align: center;">Photo Gallery</h1>
         <img src="" alt="">
         <img src="" alt="">
@@ -127,8 +155,8 @@
         <img src="" alt="">
         <img src="" alt="">
     </div>
-    <footer id="footer">
-        <p>Ryan Haun ©️ 2023</p>
+    <footer id="footer" style="text-align: center;">
+        <p>Ryan Haun ©️ 2023 - <a href="mailto:rhaun175@gmail.com" target="_blank">rhaun175@gmail.com</a></p>
     </footer>
     </body>
     </html>
