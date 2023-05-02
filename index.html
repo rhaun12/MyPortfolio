@@ -17,6 +17,14 @@
         text-align: center;
         color: #F0EBD8;
     }
+    #footer {
+        background-color: #0D1321;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        height: 50px;
+        vertical-align: middle;
+    }
     .welcome-image {
         background-image: url("Assets/welcome.png");
         background-repeat: no-repeat;
@@ -65,11 +73,14 @@
         height: 20px;
         background-image: url("")
     }
+    .hide {
+        display: none;
+    }
 </style>
 </head>
 <body>
     <div class="topnav">
-        <h1 style="float: left; margin: 0px; padding: 0px;"><a href="https://www.google.com" target="_blank" style="color: #F0EBD8;text-decoration:none;">Ryan Haun</a></h1>
+        <h1 style="float: left; margin: 0px; padding: 0px;"><a href="https://www.google.com" target="_blank" style="color: #F0EBD8;text-decoration:none;vertical-align: middle;">Ryan Haun</a></h1>
    <!--    <p class="nomargin"><a class="nomargin" href="#"><img class="socialmedia" src="Assets/github.png" alt="Github"></a></p> -->
    <!--     <p class="nomargin"><a class="nomargin" href="#"><img class="socialmedia" src="Assets/steam.png" alt="Steam"></a></p> -->
         <p class="nomargin"><a class="nomargin" href="#"><img class="socialmedia" src="Assets/twitter.png" alt="Twitter"></a></p>
@@ -80,7 +91,7 @@
     <!-- Hidden div for nav -->
     <div style="height:50px; width:100%;margin:0px;padding:0px;background-color:#0D1321;"></div>
     <div class="welcome-image">
-      <h1 id="demo"></h1> 
+      <h1 id="welcometxt"></h1> 
       <!--  <div class="down-arrow"><h1>⬇️</h1></div> -->
     </div>
     <body onload="typeWriter()">
@@ -91,7 +102,7 @@
             
             function typeWriter() {
               if (i < txt.length) {
-                document.getElementById("demo").innerHTML += txt.charAt(i);
+                document.getElementById("welcometxt").innerHTML += txt.charAt(i);
                 i++;
                 setTimeout(typeWriter, speed);
               }
@@ -105,14 +116,16 @@
         <h1 style="text-align: center;">Photography</h1>
         <p>TEXT here text here text here text here text here text here text here text here text here texth ere text here text here text here text here text here</p>
     </div>
-    <div class="content"></div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet cursus sit amet dictum sit amet justo. Quis hendrerit dolor magna eget est lorem ipsum. Auctor urna nunc id cursus metus aliquam eleifend mi. Vel fringilla est ullamcorper eget nulla facilisi. A cras semper auctor neque vitae tempus. Dolor magna eget est lorem ipsum dolor sit amet. Eget dolor morbi non arcu risus. Ut pharetra sit amet aliquam id. Ac orci phasellus egestas tellus rutrum tellus pellentesque.
-        <br>
-        Velit dignissim sodales ut eu. Non odio euismod lacinia at quis risus. Diam maecenas ultricies mi eget. Aliquam malesuada bibendum arcu vitae elementum curabitur. Elit scelerisque mauris pellentesque pulvinar. Nibh tellus molestie nunc non blandit massa enim nec. Justo donec enim diam vulputate ut pharetra sit. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Quis lectus nulla at volutpat. Quis imperdiet massa tincidunt nunc. Bibendum at varius vel pharetra vel turpis nunc eget. Ridiculus mus mauris vitae ultricies leo integer. Sed lectus vestibulum mattis ullamcorper. Metus dictum at tempor commodo ullamcorper a.
-        <br>
-        Tempus imperdiet nulla malesuada pellentesque elit eget gravida. Mollis nunc sed id semper risus in hendrerit gravida rutrum. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Convallis aenean et tortor at. Euismod lacinia at quis risus sed vulputate odio ut. Risus pretium quam vulputate dignissim suspendisse in est. Integer quis auctor elit sed vulputate mi sit amet mauris. Dictum fusce ut placerat orci nulla pellentesque. Lorem ipsum dolor sit amet consectetur adipiscing. Pellentesque dignissim enim sit amet venenatis urna cursus. Nisi quis eleifend quam adipiscing. Pellentesque sit amet porttitor eget dolor. Volutpat sed cras ornare arcu dui vivamus arcu. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices.
-        <br>
-        Nulla facilisi morbi tempus iaculis urna. Nec ullamcorper sit amet risus nullam eget. Ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia. Nulla malesuada pellentesque elit eget gravida. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Et netus et malesuada fames ac. Placerat duis ultricies lacus sed turpis. Pellentesque sit amet porttitor eget. Adipiscing vitae proin sagittis nisl. Molestie a iaculis at erat pellentesque adipiscing commodo. Urna id volutpat lacus laoreet non curabitur. Varius morbi enim nunc faucibus a pellentesque. Tincidunt augue interdum velit euismod in pellentesque massa placerat duis.
-        <br>
-        Ut porttitor leo a diam sollicitudin tempor id. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. Duis convallis convallis tellus id interdum velit laoreet. Enim facilisis gravida neque convallis. Ipsum faucibus vitae aliquet nec ullamcorper sit. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor. Tincidunt ornare massa eget egestas purus viverra accumsan in. Sit amet purus gravida quis blandit turpis cursus in. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Nunc sed augue lacus viverra vitae congue eu. Ut eu sem integer vitae justo eget magna fermentum. Eu mi bibendum neque egestas congue quisque. Enim eu turpis egestas pretium.</p>
+    <div class="gallery" style="background-color: maroon;">
+        <h1 style="text-align: center;">Photo Gallery</h1>
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </div>
+    <footer id="footer">
+        <p>Ryan Haun ©️ 2023</p>
+    </footer>
     </body>
