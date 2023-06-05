@@ -1,9 +1,11 @@
-@media (max-width: 767px) {
-    .hidden-mobile {
-      display: none;
-      width: 100% !important;
+@media only screen and (max-width: 900px) {
+    .float {
+        float:none;
     }
-  }
+    img {
+        float:none;
+    }
+}
 body {
     margin: 0px;
     padding: 0px;
