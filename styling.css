@@ -1,4 +1,7 @@
 @media only screen and (max-width: 900px) {
+    .welcome-image {
+        height: 300px !important;
+    }
     .float {
         float:none !important;
     }
@@ -29,14 +32,22 @@
         clear: none !important;
         float: none !important;
         text-align: center !important;
+        height: auto !important;
     }
     .photography-text {
+        padding-top: 0px !important;
         clear: none !important;
         margin: auto !important;
         width: 98% !important;
         text-align: center !important;
+        border: 1px solid red;
+    }
+    .photography-text h1 {
+        padding-top:0 !important;
     }
     .photography {
+        height:auto !important;
+        padding-top: 0px !important;
         display: block !important;
         clear: none !important;
         margin: auto !important;
@@ -53,7 +64,6 @@
         margin: auto !important;
         width: 98% !important;
         text-align: center !important;
-        padding-top: 100px !important;
     }
     .web-design-text {
         clear: none !important;
@@ -76,8 +86,13 @@
     .button {
         width: 45% !important;
     }
+
+    /* DIVIDER */
     .socialmedia {
         display: initial !important;
+    }
+    .welcome-image {
+        height: 300px !important;
     }
 }
 .divider-dashed {
