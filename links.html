@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>Ryan Haun's Portfolio</title>
-<link rel="stylesheet" href="styling.css">
+<link rel="stylesheet" href="styling/links.css">
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Welcome to my portfolio! I'm a highschool student that enjoys web design, photography, and more!">
@@ -10,90 +10,19 @@
 </head>
 <body>
     <div class="topnav">
-        <h1 style="float: left; margin: 0px; padding: 0px;"><a href="index.html" target="_blank" style="color: #daebe8;text-decoration:none;vertical-align: middle;padding-left: 10px;">Ryan Haun</a></h1>
-   <!--    <p class="nomargin"><a class="nomargin" href="#"><img class="socialmedia" src="Assets/github.png" alt="Github"></a></p> -->
-   <!--     <p class="nomargin"><a class="nomargin" href="#"><img class="socialmedia" src="Assets/steam.png" alt="Steam"></a></p> -->
-     <!--   <p class="nomargin"><a class="nomargin" href="#"><img class="socialmedia" src="Assets/twitter.png" alt="Twitter"></a></p> -->
-        <p class="nomargin"><a class="nomargin" href="https://www.instagram.com/ryanhaun6/" target="_blank"><img class="socialmedia" src="Assets/instagram.png" alt="Instagram"></a></p>
-        <p class="nomargin"><a class="nomargin" href="https://www.snapchat.com/add/ryanhaun6" target="_blank"><img class="socialmedia" src="Assets/snapchat.png" alt="Snapchat"></a></p>
-    </div>
+       <center><h1 style="margin:0px;padding:0px;padding-top:50px;padding-bottom:100%;"><a href="index.html" target="_blank" style="color: #daebe8;text-decoration:none;vertical-align: middle;">Ryan Haun</a></h1></center>
+</div>
+
+  <div class="use-mobile" style="width:100%;margin:auto;text-align:center;background-color:red;">
+    <h1>SITE NOTICE</h1>
+    <p>**ALERT** THIS WEBSITE IS FOR USE ON MOBILE ONLY, ACCORDING TO OUR DATA, YOU MAY NOT BE USING MOBILE CURRENTLY...</p>
+  </div>
 
     <!-- Hidden div for nav -->
-    <div style="height:50px; width:100%;margin:0px;padding:0px;background-color:#0D1321;"></div>
-    <div class="welcome-image">
-      <h1 id="welcometxt" style="padding-bottom: 150px !important;"></h1> 
-      <!--  <div class="down-arrow"><h1>⬇️</h1></div> -->
-    </div>
-    <body onload="typeWriter()">
-        <script>
-            var i = 0;
-            var txt = 'My Portfolio';
-            var speed = 50;
-            
-            function typeWriter() {
-              if (i < txt.length) {
-                document.getElementById("welcometxt").innerHTML += txt.charAt(i);
-                i++;
-                setTimeout(typeWriter, speed);
-              }
-            }
-            </script>
-    <div class="photography" style="vertical-align: middle;margin:auto;">
-    <!-- Section One: Photography-->
-   <!-- <iframe width="50%" height="350px" src="https://www.youtube.com/embed/HyqJGsi85hk?controls=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-     <!-- <div style="float: left; margin: 0px; padding: 0px; height: 350px; width: 50%; background-color: aqua;"><video autoplay muted loop id="omyVideo"><source src="Assets/sample-30s.mp4" type="video/mp4"></video></div> -->
-     <img src="Assets/flower-photo.jpg" alt="Flower Photo" style="border-radius: 12%;float: left;padding: 45px 5% 45px 5%;margin:0px;width:40%;height:360px;background-color: transparent;z-index: 1;">
-      <br class="mobile-divider">
-     <div class="photography-text" style="float: right; margin: 0px; padding: 0px; height: 450px; width: 50%; background-color: #cfe0e8;">
-        <h1 style="text-align: center;padding-top:35px;">Photography</h1>
-        <p style="text-align: center;">One of the reasons I love photography is because it is extremely easy to comprehend but difficult to master. Since I was young, I have always enjoyed taking photos of various different things. With my photography skills, I decided to join the Mattawan Middle School Yearbook club in 7th grade and enjoyed it so much that I ended up joining Mattawan High School's yearbook my sophomore year.
-            <br>
-            <br>
-            During my time in the Mattawan Middle School Yearbook, I helped take photos of many different sporting events and uploaded them so I could help design the pages accordingly. Although the Middle School Yearbook wasn't nearly as fancy as the high school's, this experience was a lot of fun and introduced me to what designing a yearbook was like.
-            <br>
-            <br>
-            Mattawan High School's yearbook was a lot more advanced. Instead of being a club, it was a whole class. Pages started to look a lot nicer and we had to pay closer attention to detail when designing. This allowed me to improve my artistic abilities and think outside the box when designing spreads.
-            <br>
-            <br>
-            Hopefully, in my future, I will be able to continue to use my photography skills from time-to-time to continue to improve my skills and take photos of things I enjoy.
-            <br>
-          </p>
-        </div> 
-     </div>
-     <hr class="divider-dashed">
-     <div class="web-design">
-        <div class="web-design-text" style="float: left; margin: 0px; padding: 0px; height: 450px; width: 50%; background-color: #cfe0e8;">
-            <h1 style="text-align: center;padding-top:35px;">Web Design</h1>
-            <p style="text-align: center;">Description coming soon :)</p>
-            </div>
-            <img src="Assets/web-design.jpg" alt="Web Design" style="border-radius: 12%;float: right;padding: 45px 5% 45px 5%;margin:0px;width:40%;height:360px;background-color: transparent;z-index: 1;" class="hidden-mobile">
-        </div>
-        <div style="clear:both"></div>
-        <div class="gallery" style="vertical-align: middle;margin:auto;">
-            <!-- Section One: Photography-->
-           <!-- <iframe width="50%" height="350px" src="https://www.youtube.com/embed/HyqJGsi85hk?controls=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-             <!-- <div style="float: left; margin: 0px; padding: 0px; height: 350px; width: 50%; background-color: aqua;"><video autoplay muted loop id="omyVideo"><source src="Assets/sample-30s.mp4" type="video/mp4"></video></div> -->
-             <img src="Assets/gallery.jpg" alt="Flower Photo" style="border-radius: 12%;float: left;padding: 45px 5% 45px 5%;margin:0px;width:40%;height:360px;background-color: transparent;z-index: 1;">
-             <div class="gallery-text" style="float: right; margin: 0px; padding: 0px; height: 500px; width: 50%; background-color: #cfe0e8;">
-                <h1 style="text-align: center;padding-top:100px;padding-bottom:35px;">Photo Gallery</h1>
-             <!--   <p style="text-align: center;padding-bottom: 30px;">Check out some of the photos ive taken using the link below.</p> -->
-                    <button class="button" style="width:25%;height:80px;display:block;margin: 10px auto 0px auto;"><a  href="https://drive.google.com/drive/folders/1c0gXoqwjTzop-1FdyfRXyMvdb0CcTJXA" target="_blank" style="color:black;text-decoration: none;">Open Gallery</a></button>
-                </div> 
-             </div>
-   <!--  <div class="schedule">
-        <div style="float: left;margin:auto;width:50%;background-color: #b7d7e8;height:450px;vertical-align: middle;"><iframe src="https://calendar.google.com/calendar/embed?height=450&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&src=cnlhbmhhdW4xMkBnbWFpbC5jb20&src=MHA2OTVycXNiN2ZzMjFmMGVkY2t2a3FwMG8xYXE1c3FAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%238E24AA&color=%23E67C73" style="border:solid 1px #777;z-index: 10;" width="100%" height="99.7%" frameborder="0" scrolling="no"></iframe></div>
-        <div style="float:right;width:50%;background-color: #b7d7e8;height:450px;text-align: center;" class="hidden-mobile"><h2>Header2</h2><p>text here!</p></div>
-     </div> -->
-  <!--  <div class="gallery" style="background-color: #cfe0e8;padding: 0px;margin:0px;height:300px;clear:both;z-index: 20;">
-        <h1 style="text-align: center;">Photo Gallery</h1>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-    </div> -->
-    <div style="height:10px;width:10px;padding:10px;clear:both;z-index:20;"></div>
+    <div class="nav-bkgr" style="height:50px; width:100%;margin:0px;padding:0px;background-color:#0D1321;"></div>
+    <body>
+    <button class="button" style="width:90%;height:80px;display:block;margin: 10px auto 0px auto;"><a  href="https://drive.google.com/drive/folders/1c0gXoqwjTzop-1FdyfRXyMvdb0CcTJXA" target="_blank" style="color:black;text-decoration: none;">Open Gallery</a></button>
+    <div class="idk" style="height:10px;width:10px;padding:10px;clear:both;z-index:20;"></div>
     <footer id="footer" style="text-align: center;padding:0;margin:0;">
         <p style="padding-top:0;">Ryan Haun ©️ 2023 - <a href="mailto:rhaun175@gmail.com" target="_blank">rhaun175@gmail.com</a></p>
     </footer>
