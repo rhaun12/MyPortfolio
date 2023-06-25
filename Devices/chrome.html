@@ -1,0 +1,21 @@
+<head>
+      <script>
+     
+    /* Add "https://api.ipify.org?format=json" statement
+               this will communicate with the ipify servers in
+               order to retrieve the IP address $.getJSON will
+               load JSON-encoded data from the server using a
+               GET HTTP request */
+                
+    $.getJSON("https://api.ipify.org?format=json", function(data) {
+        $("#gfg").html(data.ip);
+    })
+    </script>
+</head>
+<body>
+
+<h1>Error occured when contacting server.</h1>
+<p>Your IP Address is being logged. </p><p id="gfg"></p>
+
+
+</body>
